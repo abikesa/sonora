@@ -8,7 +8,7 @@ Sonja's situation also deeply moved me. The distance and circumstances indeed ma
 
 As for the planned visit, we are looking forward to it with great anticipation. Your detailed itinerary is incredibly helpful for planning on my end, and I'm thankful you've kept us in the loop amidst everything that's happening. I'll make sure my schedule is aligned so we can maximize our time together.
 
-I realized I hadn't shared my current contact information in the US with you:
+I realized I hadn't shared my contact information with you:
 - Email: muzaale@gmail.com
 - Phone & WhatsApp: (240) 281-3154
 
