@@ -1,3 +1,25 @@
+
+
+Dear Sonja,
+
+I hope this note finds you in moments of comfort amidst your treatments at Stanford. Following the email I sent to your dad, Larry, where you were cc'd, I felt it was important to reach out directly to you. It's in these times that the shared history and resilience of our families seem most poignant, and I'm inspired by the strength you're showing.
+
+Being in the realm of academic medicine at Hopkins, I've been privileged to witness countless stories of healing and hope. While I know you're in excellent hands, especially with your father's expertise, I also wanted to offer my ear for any conversations you might welcome—be it for insights, encouragement, or a diversion to lighter topics that might brighten your day.
+
+Moreover, I'm looking forward to our families' gathering in Sonoma this summer. It presents a wonderful opportunity for us to connect personally, perhaps share stories, and celebrate the journey ahead.
+
+Please feel free to reach out at your convenience. My contact details are as follows:
+- Email: muzaale@gmail.com
+- Phone & WhatsApp: (240) 281-3154
+
+Your journey resonates with many, and I hope in some small way, this message brings you an additional layer of support. Wishing you moments of peace and steady progress on the road to recovery.
+
+With warmest regards and in anticipation of our summer reunion,
+
+Abi
+
+---
+
 Dear Larry,
 
 I think our last meeting was in Kampala back in the summer of 2019. You spoke highly of Hopkins then, appreciating it for two significant reasons: a pivotal stage in your career with MU-JHU, and your surgical oncologist from Emory University, who had trained under Dr. John Cameron, my former Chair of Surgery at Hopkins.
