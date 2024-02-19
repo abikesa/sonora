@@ -1,12 +1,22 @@
  
 
+
+
+
+Begin forwarded message:
+
+From: Abimereki Muzaale <muzaale@gmail.com>
+Subject: Wishing You Strength and Comfort on Your Journey
+Date: February 19, 2024 at 12:17:50 PM EST
+To: sonja.begonias@gmail.com
+
 Dear Sonja,
 
 I hope this note finds you in moments of comfort amidst your treatments at Stanford. Following the email I sent to your dad, in which you were cc'd, I felt it was important to reach out directly to you. It's in these times that the shared history and resilience of our families seem most poignant, and I'm truly inspired by the strength you're showing.
 
 Being part of the academic medicine community at Johns Hopkins in Baltimore, I've been privileged to witness countless stories of healing and hope. While I know you're in excellent hands, I also wanted to offer my ear for any conversations you might welcome—be it for insights, encouragement, or a diversion to lighter topics that might brighten your day. You can reach me by phone & WhatsApp at (240) 281-3154.
 
-Moreover, I'm looking forward to our families' gathering in Sonoma this summer. It presents a wonderful opportunity for us to connect personally, perhaps share stories, and celebrate the journey ahead.
+Moreover, I'm looking forward to our families' gathering in Sonoma this summer along with my Mom and Dad. It presents a wonderful opportunity for us to connect personally, perhaps share stories, and celebrate the journey ahead.
 
 Your journey resonates with many, and I hope, in some small way, this message brings you an additional layer of support. Wishing you moments of peace and steady progress on the road to recovery.
 
