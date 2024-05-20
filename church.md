@@ -1,5 +1,5 @@
 
-### God: 1st, 3rd, 5th, ♭♭7th, 9th  
+### [God](https://www.economist.com/culture/2024/05/14/god-an-ageing-product-outperforms-expectations): 1st, 3rd, 5th, ♭♭7th, 9th  
 1. Hunter-gatherer: Marums' naturalism  (I)
 2. Peasant: [Unitarian Universalist Fellowship](https://www.uuftc.org) (B)
 ### Community: 11th, 13th
