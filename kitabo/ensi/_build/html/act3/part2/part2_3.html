@@ -430,11 +430,11 @@ document.write(`
 <span class="c1"># Define the neural network fractal</span>
 <span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos-Entropy&#39;</span><span class="p">,</span> <span class="s1">&#39;World-Tempered&#39;</span><span class="p">,</span> <span class="s1">&#39;Ucubona-Needs&#39;</span><span class="p">,</span> <span class="s1">&#39;Ecosystem-Costs&#39;</span><span class="p">,</span> <span class="s1">&#39;Space-Trial &amp; Error&#39;</span><span class="p">,</span> <span class="s1">&#39;Time-Cadence&#39;</span><span class="p">,</span> <span class="p">],</span> <span class="c1"># Veni; 95/5</span>
-        <span class="s1">&#39;Mode&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ucubona-Mode&#39;</span><span class="p">],</span> <span class="c1"># Vidi; 80/20</span>
-        <span class="s1">&#39;Agent&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Oblivion-Unknown&#39;</span><span class="p">,</span> <span class="s1">&#39;Brand-Trusted&#39;</span><span class="p">],</span> <span class="c1"># Vici; Veni; 51/49</span>
-        <span class="s1">&#39;Space&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ratio-Weaponized&#39;</span><span class="p">,</span> <span class="s1">&#39;Competition-Tokenized&#39;</span><span class="p">,</span> <span class="s1">&#39;Odds-Monopolized&#39;</span><span class="p">],</span> <span class="c1"># Vidi; 20/80</span>
-        <span class="s1">&#39;Time&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Volatile-Transvaluation&#39;</span><span class="p">,</span> <span class="s1">&#39;Unveiled-Resentment&#39;</span><span class="p">,</span>  <span class="s1">&#39;Freedom-Dance in Chains&#39;</span><span class="p">,</span> <span class="s1">&#39;Exuberant-Jubilee&#39;</span><span class="p">,</span> <span class="s1">&#39;Stable-Victorian&#39;</span><span class="p">]</span> <span class="c1"># Vici; 5/95</span>
+        <span class="s1">&#39;World&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Cosmos-Entropy&#39;</span><span class="p">,</span> <span class="s1">&#39;World-Tempered&#39;</span><span class="p">,</span> <span class="s1">&#39;Ucubona-Needs&#39;</span><span class="p">,</span> <span class="s1">&#39;Ecosystem-Costs&#39;</span><span class="p">,</span> <span class="s1">&#39;Space-Trial &amp; Error&#39;</span><span class="p">,</span> <span class="s1">&#39;Time-Cadence&#39;</span><span class="p">,</span> <span class="p">],</span>  
+        <span class="s1">&#39;Reflexive&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ucubona-Mode&#39;</span><span class="p">],</span> 
+        <span class="s1">&#39;Cognitive&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Oblivion-Unknown&#39;</span><span class="p">,</span> <span class="s1">&#39;Brand-Trusted&#39;</span><span class="p">],</span> 
+        <span class="s1">&#39;Social&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Ratio-Weaponized&#39;</span><span class="p">,</span> <span class="s1">&#39;Competition-Tokenized&#39;</span><span class="p">,</span> <span class="s1">&#39;Odds-Monopolized&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Existential&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Volatile-Transvaluation&#39;</span><span class="p">,</span> <span class="s1">&#39;Unveiled-Resentment&#39;</span><span class="p">,</span>  <span class="s1">&#39;Freedom-Dance in Chains&#39;</span><span class="p">,</span> <span class="s1">&#39;Exuberant-Jubilee&#39;</span><span class="p">,</span> <span class="s1">&#39;Stable-Victorian&#39;</span><span class="p">]</span>  
     <span class="p">}</span>
 
 <span class="c1"># Assign colors to nodes</span>
@@ -485,7 +485,7 @@ document.write(`
         <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Veni, Vidi, Vici&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;World, Reflexive, Cognitive, Social, Existential&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -495,7 +495,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/fe43dcdf428d40c7f709b261f68da64336ce5fa3920052da7f7e8905cefc4c2e.png" src="../../_images/fe43dcdf428d40c7f709b261f68da64336ce5fa3920052da7f7e8905cefc4c2e.png" />
+<img alt="../../_images/950f28db5f6421acf7dc621ac815401553038bb5d146ffd4f41c42f5bb7f2fc5.png" src="../../_images/950f28db5f6421acf7dc621ac815401553038bb5d146ffd4f41c42f5bb7f2fc5.png" />
 </div>
 </div>
 <figure class="align-default" id="id3">
