@@ -408,8 +408,6 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chess-as-an-engine-for-strategic-thought">Chess as an Engine for Strategic Thought</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-illusion-of-complexity-in-polytopia">The Illusion of Complexity in Polytopia</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-chess-endures">Conclusion: Chess Endures</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critique-and-counter-narratives">Critique and Counter-Narratives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-broader-perspective">A Broader Perspective</a></li>
 </ul>
             </nav>
         </div>
@@ -552,80 +550,6 @@ document.write(`
 </figcaption>
 </figure>
 </section>
-<section id="critique-and-counter-narratives">
-<h2>Critique and Counter-Narratives<a class="headerlink" href="#critique-and-counter-narratives" title="Permalink to this heading">#</a></h2>
-<p>While the narrative is tempting, one must guard against over-simplification. Evolution is not a linear or tidy progression, and molecules like serotonin and dopamine are not confined to social or intellectual functions—they play critical roles in basic survival as well. Histamine, for example, does not “fade away” as we climb the evolutionary ladder; it remains central to immune function and vigilance. Similarly, adenosine’s cooperative role in energy homeostasis is just as vital to modern humans as it was to our distant ancestors. The timeline, then, is better understood as overlapping and recursive, where ancient strategies coexist with and even inform newer adaptations.</p>
-<p>Moreover, the assignment of roles—adversarial, iterative, cooperative—risks being reductive. Dopamine, for instance, is both iterative and cooperative, its rewards system reinforcing behaviors that align with social harmony or individual survival. Histamine, while adversarial in its inflammatory signaling, is also cooperative within the broader immune response. The boundaries between these categories are porous, reflecting the inherent complexity of evolution and neurochemical function.</p>
-</section>
-<section id="a-broader-perspective">
-<h2>A Broader Perspective<a class="headerlink" href="#a-broader-perspective" title="Permalink to this heading">#</a></h2>
-<p>Your framework hints at a deep truth about life itself: that survival, adaptation, and flourishing are not achieved through any single strategy but through a dynamic interplay of forces. Just as organisms evolved to balance defense, negotiation, and collaboration, so too do our neurochemical systems embody these principles at a molecular level. Evolution, then, is not just a story of molecules but of equilibria—an ongoing dance between competition, iteration, and cooperation that mirrors the broader dynamics of life.</p>
-<p>In this sense, your scheme is both a narrative of emergence and a reflection of nature’s deeper logic. Whether viewed as a literal evolutionary timeline or as a metaphor for biological and social complexity, it challenges us to see neurochemistry not as a static map of functions but as a living, evolving network—one that continues to adapt, iterate, and thrive.</p>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">from</span> <span class="nn">scipy.cluster.hierarchy</span> <span class="kn">import</span> <span class="n">dendrogram</span><span class="p">,</span> <span class="n">linkage</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="c1"># Define the labels for the leaves</span>
-<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">&quot;5-hydroxytryptamine receptor 1A&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 1B&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;5-hydroxytryptamine receptor 1D&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 1E&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;5-hydroxytryptamine receptor 1F&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 5A&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;5-hydroxytryptamine receptor 7&quot;</span><span class="p">,</span> <span class="s2">&quot;Beta-2 adrenergic receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Beta-1 adrenergic receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;Beta-3 adrenergic receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Histamine H2 receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 4&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Alpha-1B adrenergic receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;Alpha-1A adrenergic receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Alpha-1D adrenergic receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;D(3) dopamine receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;D(2) dopamine receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;D(4) dopamine receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Alpha-2C adrenergic receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;Alpha-2A adrenergic receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Alpha-2B adrenergic receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;D(1B) dopamine receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;D(1A) dopamine receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 6&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;5-hydroxytryptamine receptor 2C&quot;</span><span class="p">,</span> <span class="s2">&quot;5-hydroxytryptamine receptor 2A&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;5-hydroxytryptamine receptor 2B&quot;</span><span class="p">,</span> <span class="s2">&quot;Adenosine receptor A2b&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Adenosine receptor A2a&quot;</span><span class="p">,</span> <span class="s2">&quot;Adenosine A3 receptor&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Adenosine receptor A1&quot;</span><span class="p">,</span> <span class="s2">&quot;Muscarinic acetylcholine receptor M5&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Muscarinic acetylcholine receptor M1&quot;</span><span class="p">,</span> <span class="s2">&quot;Muscarinic acetylcholine receptor M3&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Muscarinic acetylcholine receptor M4&quot;</span><span class="p">,</span> <span class="s2">&quot;Muscarinic acetylcholine receptor M2&quot;</span><span class="p">,</span> 
-    <span class="s2">&quot;Histamine H1 receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;Histamine H4 receptor&quot;</span><span class="p">,</span> <span class="s2">&quot;Histamine H3 receptor&quot;</span>
-<span class="p">]</span>
-
-<span class="c1"># Create synthetic hierarchical data that reflects the label order</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>  <span class="c1"># For reproducibility</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">))</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.01</span>
-
-<span class="c1"># Perform hierarchical clustering</span>
-<span class="n">linked</span> <span class="o">=</span> <span class="n">linkage</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;ward&#39;</span><span class="p">)</span>
-
-<span class="c1"># Plot the dendrogram</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
-<span class="n">dendrogram</span><span class="p">(</span>
-    <span class="n">linked</span><span class="p">,</span>
-    <span class="n">orientation</span><span class="o">=</span><span class="s1">&#39;right&#39;</span><span class="p">,</span>
-    <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
-    <span class="n">leaf_font_size</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
-    <span class="n">leaf_rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">distance_sort</span><span class="o">=</span><span class="kc">False</span>
-<span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Dendrogram&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Distance&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Receptors&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-<div class="cell_output docutils container">
-<img alt="../_images/7bca490654754fbbe940554df8429e480620cc3c831484bc8c58a4aca0cfa1b9.png" src="../_images/7bca490654754fbbe940554df8429e480620cc3c831484bc8c58a4aca0cfa1b9.png" />
-</div>
-</div>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -697,8 +621,6 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chess-as-an-engine-for-strategic-thought">Chess as an Engine for Strategic Thought</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-illusion-of-complexity-in-polytopia">The Illusion of Complexity in Polytopia</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-chess-endures">Conclusion: Chess Endures</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#critique-and-counter-narratives">Critique and Counter-Narratives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-broader-perspective">A Broader Perspective</a></li>
 </ul>
   </nav></div>
 
